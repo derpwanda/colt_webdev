@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+
+<h1>LogIn</h1>
+
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method (get/post) -->
+
+<form>
+	<!-- standard LABEL syntax -->
+	<label> Username: <input name="username" type="text" placeholder="username" required=""></label>
+	
+	<!-- Alternate LABEL syntax using "for" and "id" attributes -->
+	<label for="password">Password: </label>
+	<input id="password" name="password" type="password" placeholder="password" required="">
+
+	<input type="submit" name="">
+
+	<!-- Form validations "required OR required="" -->
+	<label> Email: <input name="email" type="email" placeholder="Email" required=""></label>
+	<input type="submit" name="">
+
+</form>
+
+</body>
+</html>
+
